@@ -1,0 +1,59 @@
+$Id: RELEASE-2.1.2,v 1.1 2001/02/13 00:48:51 webcvs Exp $
+
+Cons 2.1.2
+**********
+
+This release contains a great many small changes for portability and
+general clean-up, most of which should not be noticed by most users.
+
+Visible changes include:
+
+    --	A fix for UNC path names (\\share\dir\subdir\file) on Windows NT.
+
+    --	A new Conscript_chdir() method that can be used to enable
+	Perl file-globbing in subsidiary Conscript files.
+
+    --	Correct exit-status reporting on Windows NT, including
+	identifying failures to find a program in the search path.
+
+    --	There is now a separate cons-tests package that contains
+	the regression tests and a productized cons-test script
+	for executing them.
+
+    --	The cons and cons-test packages are now available in both
+	RPM and Debian formats.
+
+See the CHANGES file for details.
+
+Cons 2.1.1
+**********
+
+2.1.1 was the first separate development release of Cons.  It was
+based on Cons release 2.0 and contains the following notable changes:
+
+    --	Fixes for the -t option.
+
+    --	Support case-insensitive drive letters on WIN32 systems.
+
+    --	Better error messages for some cases.
+
+    --	Support for binary-file signatures on WIN32 systems.
+
+See the CHANGES file for details.
+
+General
+*******
+
+Thanks to Marconi Communications (formerly FORE Systems) management for
+having transferred the copyright to the Free Software Foundation and for
+previously having released `cons' under the GNU General Public License
+(GPL) so that everyone can benefit from it.
+
+Thanks to the Free Software Foundation for the infrastructure support for
+cons.
+
+And thanks to the members of the Cons community for the bug reports,
+patches, discussion, and continued interest.
+
+Steven Knight - Development Release Co-ordinator
+Rajesh Vaidheeswarran - Maintainer
