@@ -1,0 +1,62 @@
+$Id: RELEASE-2.3.0,v 1.1 2001/05/29 14:58:02 rv Exp $
+
+Cons 2.3.0
+**********
+
+Important visible changes include:
+
+- Configurable support for signatures based on file contents has
+  been added via a SourceSignature() method and a SIGNATURE
+  construction variable.  IMPORTANT:  This changes the format
+  of .consign files.  Existing .consign files from prior versions
+  of Cons (e.g., in a Repository) will not interoperate with this
+  version.
+
+- Multiple single-character command-line flags can now be concatenated.
+
+- Multiple -q options can be used to make the build quieter.
+
+- The calling semantics of the semi-internal _Objects method have
+  been changed to take a set of path names, not file references,
+  and return the looked-up file references.  This will affect
+  any user-defined methods that call the _Objects method.
+
+- A -S option has been used to allow a signature package to be
+  specified.  -S md5::debug enables debug messages for Cons
+  MD5 dependency calculations.
+
+- A new AfterBuild method can be used to execute Perl code after a
+  target has been evaluated.
+
+- The sig::md5::srcsig() method has had its calling sequence changed.
+  A $self argument was added to make the method object-oriented,
+  allowing for better subclassing of the sig::md5 package.
+
+- A new RuleSet() method fetches a standard set of construction
+  variables for a Microsoft Visual C environment or a traditional UNIX
+  environment.
+
+- A new DefaultRules() method sets the default construction variables
+  returned by the cons::new() method.
+
+- Added experimental support for building targets using Perl code
+  references.
+
+See the CHANGES file for details and a complete list.
+
+General
+*******
+
+Thanks to Marconi Communications (formerly FORE Systems) management for
+having transferred the copyright to the Free Software Foundation and for
+previously having released `cons' under the GNU General Public License
+(GPL) so that everyone can benefit from it.
+
+Thanks to the Free Software Foundation for the infrastructure support for
+cons.
+
+And thanks to the members of the Cons community for the bug reports,
+patches, discussion, and continued interest.
+
+Steven Knight - Development Release Co-ordinator
+Rajesh Vaidheeswarran - Maintainer

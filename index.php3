@@ -2,7 +2,7 @@
 <!--php3-->
 
 <!-- cons web page -->
-<!-- Copyright (C) 1998-2000 Free Software Foundation, Inc.-->
+<!-- Copyright (C) 1998-2001 Free Software Foundation, Inc.-->
 
 <!-- This program is free software; you can redistribute it and/or modify-->
 <!-- it under the terms of the GNU General Public License as published by-->
@@ -25,7 +25,7 @@
     <META NAME="Description" CONTENT="Cons - A Make Replacement.">
     <META NAME="Keywords" CONTENT="cons, make, build, software, build software,
     software build, construction system, software construction system">
-    <!-- $Id: index.php3,v 1.1 2001/02/13 00:48:45 webcvs Exp $ -->
+    <!-- $Id: index.php3,v 1.2 2001/05/29 14:58:02 rv Exp $ -->
 </HEAD>
 
 <BODY BGCOLOR="#FFFFFF">
@@ -56,7 +56,7 @@ although you can use it more powerfully if you do.
 
 <DD>
 
-To use CONS, you will need <A HREF="http://language.perl.com">Perl</A> 5.002
+To use CONS, you will need <A HREF="http://language.perl.com">Perl</A> 5.003
 or better and the Perl
 <A HREF="http://www.cpan.org/modules/by-module/Digest/">Digest::MD5</A>
 module, available from CPAN
@@ -288,6 +288,11 @@ The CONS mailing list is archived at
 http://mail.gnu.org/pipermail/cons-discuss</a>
 <P><DD>
 
+CONS has an <A HREF="http://freshmeat.net/projects/cons/">appindex</A>
+entry at the <A HREF="http://www.freshmeat.net/">freshmeat.net</A>
+Open Source project directory.
+<P><DD>
+
 An article about CONS appeared in
 <A HREF="http://www.tpj.com/">
 The Perl Journal</A>, issue #9, Spring 1998.
@@ -328,7 +333,7 @@ this CONS mirror.
 <BR><BR><BR>
 <FONT SIZE="-1">
 
-Last updated: Wed Nov 22 2000.
+Last updated: Tue May 29 2001.
 
 <BR>
 
